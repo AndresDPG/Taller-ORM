@@ -12,6 +12,7 @@ router.route('/')
         res.json({ contacts });
     });
 });
+
 router.route('/')
 .post (function (req, res) {
     new Contact ({
